@@ -1,5 +1,7 @@
 # Reproducibility package for the paper "Probabilistic calibration of one-dimensional non-linear functions using Bayesian neural networks and variational inference."
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22748332.svg)](https://doi.org/10.5281/zenodo.22748332)
+
 This repository contains the executable experiments used to reproduce the numerical results, tables, and publication figures associated with the manuscript.
 
 The repository is organized around standalone Python scripts.
@@ -140,3 +142,14 @@ The global manifest records the run timestamps, Python version, `bnn-for-14c-cal
 ## Runtime
 
 Several parts of the workflow are computationally intensive, including the repeated Figure 3 coverage experiment with `K = 100,000`, joint-calibration MCMC calculations, posterior-density reconstruction, and the Brehm calibration experiments. A complete reference run can therefore take substantial time depending on the machine and installed numerical stack.
+
+## Archival and citation
+
+This repository is archived on Zenodo.
+
+The release associated with the submitted version of the manuscript is **v1.0.0**:
+
+-   **Version DOI:** `[https://doi.org/10.5281/zenodo.22748333]`(https://doi.org/10.5281/zenodo.22748333)
+-   **Concept DOI (all versions):** `[https://doi.org/10.5281/zenodo.22748332]`(https://doi.org/10.5281/zenodo.22748332)
+
+For exact reproducibility of the results reported in the manuscript, please use and cite the archived **v1.0.0** release identified by the Version DOI above.

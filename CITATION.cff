@@ -6,6 +6,15 @@ authors:
   - family-names: "Ashuza Cirumanga"
     given-names: "Destin"
 version: 1.0.0
-date-released: 2026-09-14
+date-released: "2026-09-14"
+doi: "10.5281/zenodo.22748333"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22748332"
+    description: "Concept DOI for all versions of this reproducibility repository."
+
+  - type: doi
+    value: "10.5281/zenodo.22748333"
+    description: "Version DOI for release v1.0.0 associated with the submitted manuscript."
 repository-code: "https://github.com/dest-ash/code_for_paper_probabilistic_calibration"
 license: GPL-3.0
