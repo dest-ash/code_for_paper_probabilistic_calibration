@@ -1,0 +1,112 @@
+[
+  {
+    "event": "first event",
+    "tree": "Alpine Larch",
+    "sample_size": 47,
+    "IntCal20_count": 27,
+    "IntCal20_percentage": 57,
+    "IntCal20_standard_error": 0.07211906589779132,
+    "BNN_count": 16,
+    "BNN_percentage": 34,
+    "BNN_standard_error": 0.06911845969757288
+  },
+  {
+    "event": "first event",
+    "tree": "Bristlecone Pine (USA)",
+    "sample_size": 45,
+    "IntCal20_count": 31,
+    "IntCal20_percentage": 69,
+    "IntCal20_standard_error": 0.06901223525245698,
+    "BNN_count": 25,
+    "BNN_percentage": 56,
+    "BNN_standard_error": 0.07407407407407407
+  },
+  {
+    "event": "first event",
+    "tree": "German Oak",
+    "sample_size": 110,
+    "IntCal20_count": 73,
+    "IntCal20_percentage": 66,
+    "IntCal20_standard_error": 0.04504776661761559,
+    "BNN_count": 61,
+    "BNN_percentage": 55,
+    "BNN_standard_error": 0.04738860559137414
+  },
+  {
+    "event": "first event",
+    "tree": "sub-total",
+    "sample_size": 202,
+    "IntCal20_count": 131,
+    "IntCal20_percentage": 65,
+    "IntCal20_standard_error": 0.033592147456427635,
+    "BNN_count": 102,
+    "BNN_percentage": 50,
+    "BNN_standard_error": 0.035178152859519876
+  },
+  {
+    "event": "second event",
+    "tree": "Alpine Larch",
+    "sample_size": 26,
+    "IntCal20_count": 9,
+    "IntCal20_percentage": 35,
+    "IntCal20_standard_error": 0.09330087000722768,
+    "BNN_count": 15,
+    "BNN_percentage": 58,
+    "BNN_standard_error": 0.09689066801072671
+  },
+  {
+    "event": "second event",
+    "tree": "Bristlecone Pine (USA)",
+    "sample_size": 21,
+    "IntCal20_count": 7,
+    "IntCal20_percentage": 33,
+    "IntCal20_standard_error": 0.10286889997472795,
+    "BNN_count": 11,
+    "BNN_percentage": 52,
+    "BNN_standard_error": 0.10898516862311035
+  },
+  {
+    "event": "second event",
+    "tree": "Irish Oak",
+    "sample_size": 120,
+    "IntCal20_count": 63,
+    "IntCal20_percentage": 52,
+    "IntCal20_standard_error": 0.04558645632202617,
+    "BNN_count": 63,
+    "BNN_percentage": 52,
+    "BNN_standard_error": 0.04558645632202617
+  },
+  {
+    "event": "second event",
+    "tree": "Sibirian Larch",
+    "sample_size": 26,
+    "IntCal20_count": 12,
+    "IntCal20_percentage": 46,
+    "IntCal20_standard_error": 0.09776752450803732,
+    "BNN_count": 17,
+    "BNN_percentage": 65,
+    "BNN_standard_error": 0.09330087000722768
+  },
+  {
+    "event": "second event",
+    "tree": "sub-total",
+    "sample_size": 193,
+    "IntCal20_count": 91,
+    "IntCal20_percentage": 47,
+    "IntCal20_standard_error": 0.03593228358215499,
+    "BNN_count": 106,
+    "BNN_percentage": 55,
+    "BNN_standard_error": 0.03581595992440655
+  },
+  {
+    "event": "the two events",
+    "tree": "total",
+    "sample_size": 395,
+    "IntCal20_count": 222,
+    "IntCal20_percentage": 56,
+    "IntCal20_standard_error": 0.024963409177605,
+    "BNN_count": 208,
+    "BNN_percentage": 53,
+    "BNN_standard_error": 0.025122151326423887
+  }
+]

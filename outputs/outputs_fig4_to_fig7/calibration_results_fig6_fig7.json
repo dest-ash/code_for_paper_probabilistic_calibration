@@ -1,0 +1,142 @@
+{
+  "figure_6": {
+    "input": {
+      "c14age": 8977,
+      "c14sig": 31,
+      "known_true_date_cal_BP": 10183,
+      "sample_size": 10000
+    },
+    "BNN_curve": {
+      "calage_posterior_mode": 10161,
+      "calage_posterior_mode_density": 0.006103564520690144,
+      "connexe_HPD_intervals_density": [
+        0.9505909977787045
+      ],
+      "HPD_threshold": 0.0008445074586685747,
+      "connexe_HPD_intervals_unscaled": [
+        [
+          10012.2076,
+          10337.297199999999
+        ]
+      ],
+      "connexe_HPD_intervals_unscaled_round": [
+        [
+          10012,
+          10338
+        ]
+      ],
+      "HPD_region_length": 326,
+      "alpha": 0.05
+    },
+    "IntCal20_curve": {
+      "calage_posterior_mode": 10186,
+      "calage_posterior_mode_density": 0.02743867568580774,
+      "connexe_HPD_intervals_density": [
+        0.011406342911069983,
+        0.10748991188873093,
+        0.02704427773358993,
+        0.06367632174811373,
+        0.7405391078823488
+      ],
+      "HPD_threshold": 0.0014896149927222588,
+      "connexe_HPD_intervals_unscaled": [
+        [
+          9923.833333333334,
+          9936.666666666666
+        ],
+        [
+          9960.5,
+          9991.666666666666
+        ],
+        [
+          10010.0,
+          10030.166666666668
+        ],
+        [
+          10035.666666666666,
+          10063.166666666666
+        ],
+        [
+          10120.0,
+          10231.833333333334
+        ]
+      ],
+      "connexe_HPD_intervals_unscaled_round": [
+        [
+          9923,
+          9937
+        ],
+        [
+          9960,
+          9992
+        ],
+        [
+          10010,
+          10031
+        ],
+        [
+          10035,
+          10064
+        ],
+        [
+          10120,
+          10232
+        ]
+      ],
+      "HPD_region_length": 204,
+      "alpha": 0.05
+    }
+  },
+  "figure_7": {
+    "input": {
+      "c14age": 4001,
+      "c14sig": 23.4,
+      "known_true_date_cal_BP": 4471,
+      "sample_size": 10000
+    },
+    "unsummarized_BNN_curve": {
+      "calage_posterior_mode": 4517,
+      "calage_posterior_mode_density": 0.011019095694733805,
+      "connexe_HPD_intervals_density": [
+        0.9509766462100149
+      ],
+      "HPD_threshold": 0.0015471542242545442,
+      "connexe_HPD_intervals_unscaled": [
+        [
+          4432.7342,
+          4611.287200000001
+        ]
+      ],
+      "connexe_HPD_intervals_unscaled_round": [
+        [
+          4432,
+          4612
+        ]
+      ],
+      "HPD_region_length": 179,
+      "alpha": 0.05
+    },
+    "Gaussian_approximation": {
+      "calage_posterior_mode": 4517,
+      "calage_posterior_mode_density": 0.010919478398621325,
+      "connexe_HPD_intervals_density": [
+        0.9510189435729272
+      ],
+      "HPD_threshold": 0.0015695784998106675,
+      "connexe_HPD_intervals_unscaled": [
+        [
+          4432.7342,
+          4611.287200000001
+        ]
+      ],
+      "connexe_HPD_intervals_unscaled_round": [
+        [
+          4432,
+          4612
+        ]
+      ],
+      "HPD_region_length": 179,
+      "alpha": 0.05
+    }
+  }
+}

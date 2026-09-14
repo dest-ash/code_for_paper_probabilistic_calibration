@@ -1,0 +1,115 @@
+{
+  "bayesian_neural_network": {
+    "architecture": {
+      "batch_size": 50,
+      "early_stopping_min_delta": 0.0,
+      "early_stopping_monitor": "loss",
+      "early_stopping_patience": 100,
+      "hidden_bias": [
+        true,
+        true,
+        false
+      ],
+      "hidden_layers": 3,
+      "hybrid": true,
+      "kl_use_exact": false,
+      "last_bias": false,
+      "last_hybrid": true,
+      "learning_rate": 0.001,
+      "max_epochs": 400,
+      "neurons_per_hidden_layer": [
+        20,
+        260,
+        240
+      ],
+      "restore_best_weights": false
+    },
+    "calibration_grid_draws_sha256": "1a4ff565a931c46831dd7a813de5d1523e72a16869c4174311caf9d290d1c9cd",
+    "calibration_prediction_seed": 2024,
+    "curve_draws_sha256": "aae29eaaff47edf7479c3d5d26766f9aaa8a2fb57b95e5a574d060ef09b3a7c8",
+    "curve_prediction_seed": 2023,
+    "curve_rmse_against_true_function_on_50_point_grid": 2.2814139527341024,
+    "evaluation_on_test_set": {
+      "loss": 25.991050720214844,
+      "mean_absolute_error": 20.34161376953125,
+      "mean_squared_error": 689.4880981445312
+    },
+    "fit": {
+      "epochs_completed": 400,
+      "final_training_loss": 26.833332061767578,
+      "model_seed": 2022,
+      "model_weights_sha256": "0394341458340f74c6a05361d6ed4f0366a4db99907fa891e167e35bc4ef4d45",
+      "training_seconds": 260.23953652381897
+    }
+  },
+  "figure_3_coverage_experiments": [
+    {
+      "coverage_percentage": 97.0,
+      "coverage_rate": 0.97,
+      "elapsed_seconds": 0.0349879264831543,
+      "number_covering_true_value": 97,
+      "number_of_hpd_connected_intervals": 100,
+      "sample_size": 100
+    },
+    {
+      "coverage_percentage": 95.68,
+      "coverage_rate": 0.9568,
+      "elapsed_seconds": 3.400505304336548,
+      "number_covering_true_value": 9568,
+      "number_of_hpd_connected_intervals": 10008,
+      "sample_size": 10000
+    },
+    {
+      "coverage_percentage": 95.852,
+      "coverage_rate": 0.95852,
+      "elapsed_seconds": 33.49769353866577,
+      "number_covering_true_value": 95852,
+      "number_of_hpd_connected_intervals": 100060,
+      "sample_size": 100000
+    }
+  ],
+  "simulation": {
+    "data_rng_seed": 2022,
+    "domain": [
+      -20.0,
+      280.0
+    ],
+    "test_data_sha256": "92fcd7016156c7a67b0744ed9c3b4196c6232b6464395fa974e6c8d98b3ed96b",
+    "test_size": 5000,
+    "train_size": 10000,
+    "training_data_sha256": "43eec57cdb1ddbaf0f2e677e95ea2ecf53a41ee9731559f29f4058be9a97fb81",
+    "validation_data_sha256": "bedf4638a9a866b2f92bb4b100a1358f3188665613adc83eb7ad025e23c658d6",
+    "validation_size": 5000
+  },
+  "single_calibration_example": {
+    "confidence_level": 0.95,
+    "credible_interval_scaled": [
+      0.5494607726466155,
+      0.6000000937337872
+    ],
+    "credible_interval_unscaled": [
+      144.83823179398465,
+      160.00002812013614
+    ],
+    "expected_measurement": 135.73986770334233,
+    "generated_measurement": 134.07332192144,
+    "hpd_intervals_scaled": [
+      [
+        0.549,
+        0.6
+      ]
+    ],
+    "hpd_intervals_unscaled": [
+      [
+        144.70000000000002,
+        160.0
+      ]
+    ],
+    "hpd_probability_mass": [
+      0.9522113025149892
+    ],
+    "laboratory_standard_deviation": 4.0,
+    "posterior_mode_unscaled": 152.65000000000003,
+    "true_feature_value": 155.0
+  }
+}

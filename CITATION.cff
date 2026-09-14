@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Probabilistic calibration of one-dimensional non-linear functions using Bayesian neural networks and variational inference: reproducibility package"
+type: software
+authors:
+  - family-names: "Ashuza Cirumanga"
+    given-names: "Destin"
+version: 1.0.0
+date-released: 2026-09-14
+repository-code: "https://github.com/dest-ash/code_for_paper_probabilistic_calibration"
+license: GPL-3.0

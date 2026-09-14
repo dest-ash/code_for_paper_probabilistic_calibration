@@ -1,0 +1,113 @@
+{
+  "inputs": {
+    "c14_ages": [
+      9647,
+      10033
+    ],
+    "c14_sigmas": [
+      27,
+      33
+    ],
+    "known_calendar_dates_cal_BP": [
+      11100,
+      11635
+    ]
+  },
+  "mcmc": {
+    "alpha": 0.05,
+    "chain_length": 160000,
+    "burn_in": 10000,
+    "thinning_step": 5,
+    "thinned_sample_size": 30000,
+    "acceptance_rate": 0.8939055869099182,
+    "marginal_acceptance_rates": [
+      0.5941912136950855,
+      0.7488484303026894
+    ],
+    "posterior_mode_cal_BP": [
+      11029,
+      11625
+    ],
+    "posterior_mean_cal_BP": [
+      11033,
+      11639
+    ],
+    "posterior_std_years": [
+      132,
+      202
+    ]
+  },
+  "joint_kde": {
+    "bandwidth_rule": "scott",
+    "bandwidth_factor": 0.17939615237472162,
+    "covariance": [
+      [
+        554.3166584586684,
+        27.938975401417874
+      ],
+      [
+        27.93897540141787,
+        1308.116684947868
+      ]
+    ]
+  },
+  "individual_calibrations": [
+    {
+      "calage_posterior_mode": 11119,
+      "calage_posterior_mean": 11143,
+      "calage_posterior_std": 106,
+      "connexe_HPD_intervals_unscaled_round": [
+        [
+          10944,
+          11356
+        ]
+      ],
+      "HPD_region_length": 412,
+      "alpha": 0.05
+    },
+    {
+      "calage_posterior_mode": 11703,
+      "calage_posterior_mean": 11724,
+      "calage_posterior_std": 119,
+      "connexe_HPD_intervals_unscaled_round": [
+        [
+          11497,
+          11960
+        ]
+      ],
+      "HPD_region_length": 462,
+      "alpha": 0.05
+    }
+  ],
+  "difference_variances": {
+    "individual_calibration_samples": 25511.382769086616,
+    "joint_calibration_samples": 56132.00526783121,
+    "sum_individual_marginal_variances": 25321.451530857667,
+    "sum_joint_marginal_variances": 57868.20524357613
+  },
+  "table3": {
+    "index": [
+      "correlation",
+      "mutual information",
+      "normalized mutual information"
+    ],
+    "columns": [
+      "individual_calibration_samples",
+      "joint_calibration_samples"
+    ],
+    "data": [
+      [
+        -0.007547695759659088,
+        0.03279083235655993
+      ],
+      [
+        2.040446599770272,
+        2.710380848833656
+      ],
+      [
+        0.33693734731408453,
+        0.4318249103446135
+      ]
+    ]
+  }
+}

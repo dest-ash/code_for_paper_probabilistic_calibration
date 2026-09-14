@@ -1,0 +1,351 @@
+{
+  "inputs": {
+    "c14_ages": [
+      5089,
+      7228
+    ],
+    "c14_sigmas": [
+      16.9,
+      31.68
+    ],
+    "known_calendar_dates_cal_BP": [
+      5800.0,
+      8004.0
+    ],
+    "alpha": 0.05,
+    "n_chains": 10,
+    "chain_length": 10000
+  },
+  "per_chain": [
+    {
+      "chain": 1,
+      "shape": [
+        2,
+        10000
+      ],
+      "mean_cal_BP": [
+        5843.356877936575,
+        8049.037606740348
+      ],
+      "median_cal_BP": [
+        5842.491876753436,
+        8049.886695063529
+      ],
+      "acceptance_rate": 0.9624962496249625,
+      "marginal_acceptance_rates": [
+        0.570957095709571,
+        0.9228922892289229
+      ],
+      "posterior_mode_cal_BP": [
+        5842,
+        8049
+      ],
+      "posterior_mean_cal_BP": [
+        5843,
+        8049
+      ],
+      "posterior_std_years": [
+        39,
+        77
+      ]
+    },
+    {
+      "chain": 2,
+      "shape": [
+        2,
+        10000
+      ],
+      "mean_cal_BP": [
+        5844.0064310328735,
+        8049.757747611299
+      ],
+      "median_cal_BP": [
+        5843.589604185077,
+        8050.137600660963
+      ],
+      "acceptance_rate": 0.9694969496949695,
+      "marginal_acceptance_rates": [
+        0.5803580358035804,
+        0.9259925992599259
+      ],
+      "posterior_mode_cal_BP": [
+        5843,
+        8049
+      ],
+      "posterior_mean_cal_BP": [
+        5844,
+        8049
+      ],
+      "posterior_std_years": [
+        39,
+        77
+      ]
+    },
+    {
+      "chain": 3,
+      "shape": [
+        2,
+        10000
+      ],
+      "mean_cal_BP": [
+        5843.837344064956,
+        8050.188875540981
+      ],
+      "median_cal_BP": [
+        5843.97251766105,
+        8051.017352951374
+      ],
+      "acceptance_rate": 0.965996599659966,
+      "marginal_acceptance_rates": [
+        0.5805580558055805,
+        0.9262926292629263
+      ],
+      "posterior_mode_cal_BP": [
+        5843,
+        8050
+      ],
+      "posterior_mean_cal_BP": [
+        5843,
+        8050
+      ],
+      "posterior_std_years": [
+        38,
+        77
+      ]
+    },
+    {
+      "chain": 4,
+      "shape": [
+        2,
+        10000
+      ],
+      "mean_cal_BP": [
+        5843.214315284702,
+        8049.720245350451
+      ],
+      "median_cal_BP": [
+        5843.6520006086275,
+        8050.283163986429
+      ],
+      "acceptance_rate": 0.9658965896589659,
+      "marginal_acceptance_rates": [
+        0.583958395839584,
+        0.9265926592659266
+      ],
+      "posterior_mode_cal_BP": [
+        5843,
+        8049
+      ],
+      "posterior_mean_cal_BP": [
+        5843,
+        8049
+      ],
+      "posterior_std_years": [
+        40,
+        77
+      ]
+    },
+    {
+      "chain": 5,
+      "shape": [
+        2,
+        10000
+      ],
+      "mean_cal_BP": [
+        5843.587732298559,
+        8049.190045870017
+      ],
+      "median_cal_BP": [
+        5843.605800718382,
+        8048.906593453923
+      ],
+      "acceptance_rate": 0.9652965296529653,
+      "marginal_acceptance_rates": [
+        0.5784578457845785,
+        0.9246924692469247
+      ],
+      "posterior_mode_cal_BP": [
+        5843,
+        8047
+      ],
+      "posterior_mean_cal_BP": [
+        5843,
+        8049
+      ],
+      "posterior_std_years": [
+        39,
+        77
+      ]
+    },
+    {
+      "chain": 6,
+      "shape": [
+        2,
+        10000
+      ],
+      "mean_cal_BP": [
+        5842.429505907047,
+        8050.217576928766
+      ],
+      "median_cal_BP": [
+        5842.808115390521,
+        8048.9492130804565
+      ],
+      "acceptance_rate": 0.962996299629963,
+      "marginal_acceptance_rates": [
+        0.5775577557755776,
+        0.9205920592059206
+      ],
+      "posterior_mode_cal_BP": [
+        5842,
+        8047
+      ],
+      "posterior_mean_cal_BP": [
+        5842,
+        8050
+      ],
+      "posterior_std_years": [
+        39,
+        77
+      ]
+    },
+    {
+      "chain": 7,
+      "shape": [
+        2,
+        10000
+      ],
+      "mean_cal_BP": [
+        5842.760125004606,
+        8047.7817963756
+      ],
+      "median_cal_BP": [
+        5842.836891958679,
+        8048.150718974612
+      ],
+      "acceptance_rate": 0.9662966296629663,
+      "marginal_acceptance_rates": [
+        0.5760576057605761,
+        0.9259925992599259
+      ],
+      "posterior_mode_cal_BP": [
+        5842,
+        8048
+      ],
+      "posterior_mean_cal_BP": [
+        5842,
+        8047
+      ],
+      "posterior_std_years": [
+        39,
+        77
+      ]
+    },
+    {
+      "chain": 8,
+      "shape": [
+        2,
+        10000
+      ],
+      "mean_cal_BP": [
+        5843.136881922211,
+        8047.660828126728
+      ],
+      "median_cal_BP": [
+        5843.083165487426,
+        8048.405734223571
+      ],
+      "acceptance_rate": 0.9682968296829683,
+      "marginal_acceptance_rates": [
+        0.5755575557555755,
+        0.9253925392539254
+      ],
+      "posterior_mode_cal_BP": [
+        5842,
+        8047
+      ],
+      "posterior_mean_cal_BP": [
+        5843,
+        8047
+      ],
+      "posterior_std_years": [
+        39,
+        77
+      ]
+    },
+    {
+      "chain": 9,
+      "shape": [
+        2,
+        10000
+      ],
+      "mean_cal_BP": [
+        5844.453815628411,
+        8048.830037550433
+      ],
+      "median_cal_BP": [
+        5844.222154311975,
+        8048.980389267654
+      ],
+      "acceptance_rate": 0.9653965396539654,
+      "marginal_acceptance_rates": [
+        0.5816581658165817,
+        0.9268926892689269
+      ],
+      "posterior_mode_cal_BP": [
+        5842,
+        8049
+      ],
+      "posterior_mean_cal_BP": [
+        5844,
+        8048
+      ],
+      "posterior_std_years": [
+        38,
+        77
+      ]
+    },
+    {
+      "chain": 10,
+      "shape": [
+        2,
+        10000
+      ],
+      "mean_cal_BP": [
+        5844.160619458165,
+        8048.424502443496
+      ],
+      "median_cal_BP": [
+        5843.979637037025,
+        8048.355599080849
+      ],
+      "acceptance_rate": 0.9666966696669667,
+      "marginal_acceptance_rates": [
+        0.5717571757175718,
+        0.9263926392639263
+      ],
+      "posterior_mode_cal_BP": [
+        5842,
+        8049
+      ],
+      "posterior_mean_cal_BP": [
+        5844,
+        8048
+      ],
+      "posterior_std_years": [
+        38,
+        77
+      ]
+    }
+  ],
+  "across_chain_means": {
+    "mean_of_chain_means_cal_BP": [
+      5843.49436485381,
+      8049.080926253811
+    ],
+    "std_of_chain_means_years": [
+      0.6042484729046006,
+      0.8716869047554093
+    ]
+  }
+}

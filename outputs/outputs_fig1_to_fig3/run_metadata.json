@@ -1,0 +1,33 @@
+{
+  "elapsed_seconds": 307.1084189414978,
+  "figure_dpi": 600,
+  "packages": {
+    "bnn_for_14C_calibration": "0.2.1",
+    "matplotlib": "3.5.3",
+    "numpy": "1.23.2",
+    "scipy": "1.13.1",
+    "tensorflow": "2.9.1",
+    "tensorflow_probability": "0.17.0"
+  },
+  "platform": {
+    "machine": "x86_64",
+    "release": "5.15.0-139-generic",
+    "system": "Linux"
+  },
+  "python": {
+    "implementation": "CPython",
+    "version": "3.9.13"
+  },
+  "reproducibility": {
+    "PYTHONHASHSEED": null,
+    "TF_CUDNN_DETERMINISTIC": "1",
+    "TF_DETERMINISTIC_OPS": "1",
+    "base_seed": 2022,
+    "calibration_prediction_seed": 2024,
+    "curve_prediction_seed": 2023,
+    "data_rng_seed": 2022,
+    "model_seed": 2022,
+    "training_input_pipeline": "seeded_tf_data_shuffle_deterministic"
+  },
+  "script": "reproduce_fig1_to_fig3.py"
+}

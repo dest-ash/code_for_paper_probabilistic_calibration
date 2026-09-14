@@ -1,0 +1,26 @@
+{
+  "python": {
+    "version": "3.9.13",
+    "implementation": "CPython"
+  },
+  "platform": {
+    "system": "Linux",
+    "release": "5.15.0-139-generic",
+    "machine": "x86_64"
+  },
+  "packages": {
+    "numpy": "1.23.2",
+    "pandas": "1.4.4",
+    "matplotlib": "3.5.3",
+    "tensorflow": "2.9.1",
+    "tensorflow-probability": "0.17.0",
+    "bnn_for_14C_calibration": "0.2.1"
+  },
+  "seed": 1234,
+  "dpi": 600,
+  "elapsed_seconds": 1472.727446041994,
+  "determinism_environment": {
+    "TF_DETERMINISTIC_OPS": "1",
+    "TF_CUDNN_DETERMINISTIC": "1"
+  }
+}
