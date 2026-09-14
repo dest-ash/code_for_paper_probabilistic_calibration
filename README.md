@@ -149,7 +149,7 @@ This repository is archived on Zenodo.
 
 The release associated with the submitted version of the manuscript is **v1.0.0**:
 
--   **Version DOI:** `[https://doi.org/10.5281/zenodo.22748333]`(https://doi.org/10.5281/zenodo.22748333)
--   **Concept DOI (all versions):** `[https://doi.org/10.5281/zenodo.22748332]`(https://doi.org/10.5281/zenodo.22748332)
+-   **Version DOI:** [https://doi.org/10.5281/zenodo.22748333](https://doi.org/10.5281/zenodo.22748333)
+-   **Concept DOI (all versions):** [https://doi.org/10.5281/zenodo.22748332](https://doi.org/10.5281/zenodo.22748332)
 
 For exact reproducibility of the results reported in the manuscript, please use and cite the archived **v1.0.0** release identified by the Version DOI above.
